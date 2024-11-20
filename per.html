@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Edwin's personal website. Discover my journey, projects skills,and passions in programming,astronomy,photography.Let's connect and explore opportunities together!">
+    <meta name="keywords" content="Edwin,Edwin Jeo Joy,personal website,portfolio,web development,programming,photography,astronomy,projects,skills,creative work,collaboration">
+    <meta name="autor" content="Edwin Jeo Joy">
+    <link rel="icon" href="favicon-32x32.png" type="image/x-icon">
+    <title>EJJ</title>
+    <link rel="stylesheet" href="per.css">
+    <script src="https://kit.fontawesome.com/8f416a076c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header"  >
+        <div class="container">
+            <nav>
+                <img src="logo3.webp" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Developer/Photographer</p>
+                <h1>Hi, I'm <span>Edwin Jeo Joy</span><br>From India</h1>
+            </div>
+        </div>
+    </header>
+    
+    <!---------------about------------->
+    <section id="about" class="hidden">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user4.webp" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I’m a passionate learner with interests in astronomy, programming, and photography. After passing Plus 2 in Bio Science in 2023, I studied German for a year while building skills in coding with HTML, CSS, and Python. Aspiring to work at NASA, I love capturing the world through photography and blending creativity with technology to achieve my goals.</p>
+
+                    <div class="tab-titles">
+                       <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> 
+                       <p class="tab-links"  onclick="opentab('hobbies')">Hobbies</p>
+                       <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML&CSS</span><br>Building basic web pages</li>
+                            <li><span>Photography</span><br>Capturing and editing high quality images</li>
+                            <li><span>Astronomy</span><br>Exploring Space Science</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="hobbies">
+                        <ul>
+                            <li><span>Reading Books</span><br>Especially comic books of DC and Marvel </li>
+                            <li><span>Photography</span><br>Capturing visual stories</li>
+                            <li><span>Astronomy Enthusiast</span><br>Exploring space technologies</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024-current</span><br>Brototype</li>
+                            <li><span>2023-24</span><br>Germen language</li>
+                            <li><span>2020-23</span><br>+2 </li>
+                            <li><span>2020</span><br>10th pass</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----services-->
+ 
+    <section id="services" class="hidden"> 
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Offering personalized web development tutorials in HTML, CSS, and coding fundamentals to help beginners and enthusiasts grow.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-shuttle-space"></i>
+                    <h2> Astronomy Consulting & Education</h2>
+                    <p>Providing educational resources, workshops, and stargazing guides to help individuals explore and understand the wonders of astronomy.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <h2> Photography  Services</h2>
+                    <p>Offering professional photography services for events, portraits, and content creation, ensuring high-quality visuals.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----portfolio----->
+    <section id="portfolio" class="hidden">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="youtube2 (2).webp" alt="spaceX.html">
+                    <div class="layer">
+                        <h3>SpaceX Website Clone</h3>
+                        <p>A mobile-friendly design showcasing a SpaceX-inspired website, with a sleek interface and modern layout.
+                        </p>
+                        <a href="https://eddu-su.github.io/space-ejj-/space.html"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="spaceX (1) (1).webp" alt="youtube.html">
+                    <div class="layer">
+                         <h3>YouTube Website Clone
+                         </h3>
+                         <p>A YouTube-inspired website displayed on a laptop, highlighting a clean and user-friendly video grid layout.</p>
+                         <a href="https://eddu-su.github.io/youtube/youtube.html"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photo (1) (1).webp" alt="Photo">
+                    <div class="layer">
+                       <h3>Photography Portfolio
+                       </h3>
+                       <p>A professional showcase of a photography portfolio that I clicked on my camera.
+                       </p>
+                       <a href="https://lightroom.app.link/U5fBaqipEOb"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </section>
+
+    <!----contact-->
+    <section id="contact" class="hidden">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa-solid fa-paper-plane"></i></a>edwinjeojoy@gmail.com</p>
+                    <p><a href="https://wa.me/qr/P47NWKCRVOHYN1"><i class="fa-solid fa-mobile-screen"></i></a>8590487926</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/eddu_ej/profilecard/?igsh=N3h1aWlkNXZ3NTNu"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/edwin_jeo?t=rfZKShXhmOPlAA0fD23CXg&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/edwin-jeo-joy-026296329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://lightroom.app.link/U5fBaqipEOb"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <a href="Edwin Jeo Joy.pdf" download class="btn btn2">Download CV </a>
+                </div>
+                <div class="contact-right">
+                  <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Edwin.</p>
+        </div>
+    </section>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+         }
+      </script>
+      <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+           
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+            
+        }
+      </script>
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby7kWst1XPIFrWXlpyNCNb4fyxI5GbyONLS5KoaSewrLxa-FLxirAyhuFxNJHRe026veQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            } )
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script src="scroll.js">
+
+      </script>
+</body>
+</html>
